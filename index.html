@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The personal portfolio of Utkarsh Tiwari, an IT student learning web development.">
+  <title>Utkarsh Tiwari | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Utkarsh Tiwari home">UT<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> B.Sc. IT Student · Aspiring Developer</p>
+        <h1>Hi, I'm <span class="accent">Utkarsh Tiwari.</span><br>Building my future<br>one line at a time.</h1>
+        <p class="hero-description">I'm an IT student exploring web development, creative technology, and practical ways to turn ideas into useful digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta"><span>Based in Vadodara, India</span><span class="meta-divider" aria-hidden="true"></span><span>Always learning</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative abstract portfolio illustration" role="img">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="art-card card-back"><span class="mini-label">CREATIVE MODE</span><div class="bars"><i></i><i></i><i></i><i></i><i></i></div></div>
+        <div class="art-card card-front"><span class="code-mark">&lt;/&gt;</span><span class="art-caption">Curiosity → Code</span><span class="art-caption muted">Ideas into interfaces.</span></div>
+        <span class="floating-star star-one" aria-hidden="true">✳</span><span class="floating-star star-two" aria-hidden="true">✦</span>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2>Learning by <span class="accent">building.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-lead">I’m currently pursuing a Bachelor of Science in Information Technology. I enjoy experimenting with technology, learning new tools, and improving my skills through hands-on projects.</p>
+        <div class="about-note"><span class="note-icon" aria-hidden="true">✳</span><p>My goal is to keep learning, create meaningful projects, and grow into a developer who can solve real problems with technology.</p></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">02 / MY TOOLKIT</p><h2>Skills I'm <span class="accent">developing.</span></h2><p class="section-intro">A growing foundation in technology and design. I'm continuously practicing and adding to this list.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-number">01</span><h3>HTML</h3><p>Structuring clear, accessible web pages.</p><div class="skill-line"><span style="width:75%"></span></div></article>
+          <article class="skill-card"><span class="skill-number">02</span><h3>CSS</h3><p>Styling layouts and responsive interfaces.</p><div class="skill-line"><span style="width:65%"></span></div></article>
+          <article class="skill-card"><span class="skill-number">03</span><h3>JavaScript</h3><p>Learning to make websites interactive.</p><div class="skill-line"><span style="width:45%"></span></div></article>
+          <article class="skill-card"><span class="skill-number">04</span><h3>C / C++</h3><p>Practicing programming fundamentals.</p><div class="skill-line"><span style="width:55%"></span></div></article>
+        </div>
+        <p class="small-note">Skill indicators are illustrative. Update them as your experience grows.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects & <span class="accent">practice.</span></h2><p class="section-intro">A few examples of the kind of work I'm learning to create. Replace these with your actual projects as you complete them.</p></div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual visual-one" role="img" aria-label="Abstract illustration representing a personal website"><span>01</span><div class="mock-window"><i></i><i></i><i></i><b></b><b></b></div></div>
+          <div class="project-info"><p class="project-type">WEB DEVELOPMENT</p><h3>Personal Portfolio</h3><p>A responsive website introducing me, my skills, and my learning journey.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-two" role="img" aria-label="Abstract illustration representing a task planner"><span>02</span><div class="planner"><b>Today's focus</b><i>✓ Learn something</i><i>✓ Practice code</i><i>○ Build a project</i></div></div>
+          <div class="project-info"><p class="project-type">PRACTICE PROJECT</p><h3>Study Planner</h3><p>A concept for organizing study tasks and keeping track of daily goals.</p><div class="tag-list"><span>UI Design</span><span>Planning</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-three" role="img" aria-label="Abstract illustration representing a creative ideas board"><span>03</span><div class="idea-shape">IDEAS<br><strong>→</strong><br>CREATE</div></div>
+          <div class="project-info"><p class="project-type">CREATIVE EXPLORATION</p><h3>Digital Ideas Board</h3><p>A space to collect creative concepts and explore how they could become digital experiences.</p><div class="tag-list"><span>Research</span><span>Creativity</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div><p class="eyebrow">04 / SAY HELLO</p><h2>Have an idea?<br><span class="accent">Let's connect.</span></h2><p class="contact-copy">I'm open to learning opportunities, project feedback, and connecting with people who enjoy building things.</p></div>
+        <div class="contact-card"><p class="contact-card-label">EMAIL ME</p><a class="email-link" href="mailto:your.email@example.com">your.email@example.com <span aria-hidden="true">↗</span></a><p class="small-note">Before publishing, replace this placeholder with your own email address.</p><button class="button primary copy-button" id="copy-email" type="button" data-email="your.email@example.com">Copy email address</button><p class="copy-status" id="copy-status" aria-live="polite"></p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#home">UT<span>.</span></a><p>Designed and built while learning. © <span id="year">2026</span> Utkarsh Tiwari.</p><a href="#home" class="back-top">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
